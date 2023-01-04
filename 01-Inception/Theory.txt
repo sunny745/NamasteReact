@@ -1,1 +1,58 @@
 
+
+Namaste React Course by Akshay Saini
+Chapter 01 - Inception
+
+
+Q: What is Emmet?
+A: Emmet is snippet that you can add to VSCode tool . It allows you to type shortcuts that are then expanded into full pieces of code for writing HTML and CSS, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules.
+
+Q: Difference between a Library and Framework?
+
+
+ Library is a collection of functionalities that we can use in our code to achieve results and provides a way for developers to perform those tasks without having to write all of the code from scratch. | A Framework is a set of tools and conventions for building and organizing code. A framework provides a structure for the code that developers write, and enforces certain conventions and rules for how that code should be organized and structured. |
+With a library, developers have more control over how they use the code, and can use it in a variety of different ways. | With a framework, developers have less control, and must follow the conventions and structure set forth by the framework in order to use it effectively.
+
+The main distinction between a framework and a library is that a framework inverts program control. It informs the developer of what they require. A library, however, does not. Instead, a programmer calls the library when and where he needs it.
+
+The main distinction between a framework and a library is that a framework inverts program control. It informs the developer of what they require. A library, however, does not. Instead, a programmer calls the library when and where he needs it.
+
+ReactJS is a Library and AngularJS is a Framework.
+
+Q: What is CDN? Why do we use it?
+
+A CDN is a network of servers that distributes content from an “origin” server throughout the world by caching content close to where each end user is accessing the internet via a web-enabled device. The content they request is first stored on the origin server and is then replicated and stored elsewhere as needed.
+Why do we use it? - This is used to reduce the latency of content delivery and it improves the performance of the website.
+
+
+Q: Why is React known as React?
+A: React is named React because of its ability to react to changes in data. React is called React because it was designed to be a declarative, efficient, and flexible JavaScript library for building user interfaces. The name "React" was chosen because the library was designed to allow developers to "react" to changes in state and data within an application, and to update the user interface in a declarative and efficient manner. React is a JavaScript-based UI development library. Facebook and an open-source developer community run it.
+
+Q: What is crossorigin in script tag?
+A: The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers. Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+Syntax
+<script crossorigin="anonymous|use-credentials">
+
+
+
+Q: What is difference between React and ReactDOM?
+A: React is used to create view and ReactDOM is responsible for actually rendering UI in the browser.
+React is a JavaScript library for building User Interfaces whereas ReactDOM is also JavaScript library that allows React to interact with the DOM. The react package 
+
+
+
+Q: What is difference between react.development.js and react.production.js files via CDN?
+A:Ans. react.development.js is a larger not minified version of React that is usually used to build the apps during development phase. react.production.js has the minified version of files that would make application to have better performance
+
+Q: What is async and defer?
+
+Async and defer are attributes of script tag used to specify how browser should handle the script when loading a page. Async: Async attribute executes scripts as soon as it’s available. HTML parsing will go on, with the scripts fetching, once scripts are fetched, HTML parsing pauses and scripts are executed then and there and once the scripts are executed, HTML parsing resumes
+
+Defer: Defer attribute waits until the HTML document has been parsed before executing any scripts Fetches the script while HTML parsing is going on but executes the script only when HTML parsing is finished.
+Syntax
+<script src="demo_async.js" async></script>
+Syntax
+<script src="demo_defer.js" defer></script>
+
+
